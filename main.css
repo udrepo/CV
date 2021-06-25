@@ -25,6 +25,7 @@ p {
     background: -webkit-linear-gradient(#743ad5, #d53a9d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2.2rem;
 }
 
 a {
@@ -36,7 +37,7 @@ a:hover {
     background: -webkit-linear-gradient(#743ad5, #d53a9d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 span {
@@ -85,6 +86,31 @@ span {
 
 .education {
     grid-area: education;
+
+}
+
+.degree{
+    margin: 5%;
+    text-align: left;
+    padding: 0;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-image: linear-gradient(to right, #36343D, #4A72B8) 1;
+}
+
+.degree h3{
+    margin: 0.2rem;
+
+}
+
+.degree h4{
+    margin: 0.2rem;
+    color: #4A72B8;
+}
+
+.degree p{
+    margin: 0.2rem;
+    color: #4A72B8;
 }
 
 .skills {

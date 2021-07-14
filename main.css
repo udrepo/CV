@@ -13,6 +13,12 @@ h1 {
     font-size: 2.5rem;
 }
 
+.disclaimer{
+    text-align: right;
+    font-size: 0.6rem;
+    color: #d53a9d;
+}
+
 p {
 
 }
@@ -57,8 +63,8 @@ span {
             "main main main main"
     "education education education education"
     "skills skills skills skills"
-    "projects projects projects projects"
-     "additional-info additional-info additional-info additional-info";
+            "additional-info additional-info additional-info additional-info"
+    "projects projects projects projects";
     grid-gap: 10px;
     max-width: 1200px;
     margin: 2.6%;
@@ -122,22 +128,25 @@ span {
     padding: 0%;
 }
 
-span{
+span {
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
 }
-.back-end{
+
+.back-end {
     color: #E03DFC;
 }
 
-.mobile{
+.mobile {
     color: #8133DB;
 }
-.web{
+
+.web {
     color: #2156D9;
 }
-.others{
+
+.others {
     color: #4AC1FF;
 }
 
@@ -170,7 +179,7 @@ span{
     grid-area: main;
 }
 
-#projects{
+#projects {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: minmax(100px, auto);
@@ -181,23 +190,31 @@ span{
     margin: 1%;
 }
 
-.project-container{
+.project-container {
     border: 2px solid;
     border-image-slice: 1;
     border-image: linear-gradient(to right, #36343D, #4A72B8) 1;
 }
 
-.projects-button{
+.projects-button {
     background-color: #d53a9d;
 }
 
-.btn-block{
+.btn-block {
     height: 45px;
 }
 
-a .last        { display: none;}
-a:hover .last  { display: block; }
-a:hover .first { display: none;  }
+a .last {
+    display: none;
+}
+
+a:hover .last {
+    display: block;
+}
+
+a:hover .first {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
     #content {
@@ -215,7 +232,7 @@ a:hover .first { display: none;  }
         margin: 2.6%;
     }
 
-    #projects{
+    #projects {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-auto-rows: minmax(100px, auto);
@@ -225,7 +242,8 @@ a:hover .first { display: none;  }
         max-width: 1200px;
         margin: 1%;
     }
-    .main-info h1{
+
+    .main-info h1 {
         margin-top: 18%;
     }
 }

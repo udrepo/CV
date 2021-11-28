@@ -189,7 +189,7 @@
     }
 
     let where = 'not yet';
-    fetch('https://extreme-ip-lookup.com/json/')
+    fetch('https://api.ipfind.com/?ip=95.82.118.223&auth=e41e6a78-41b2-420a-a5b4-38af4298ec72')
         .then( res => res.json())
         .then(response =>{
             where = response;
